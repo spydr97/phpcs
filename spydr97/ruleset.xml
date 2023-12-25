@@ -6,6 +6,10 @@
 
     <rule ref="Generic.Arrays.ArrayIndent" />
 
+    <rule ref="Generic.Files.LineLength.TooLong">
+        <severity>0</severity>
+    </rule>
+
     <rule ref="Generic.WhiteSpace.ScopeIndent">
         <properties>
             <property name="exact" value="true" />
