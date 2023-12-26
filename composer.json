@@ -1,14 +1,13 @@
 {
     "name": "spydr97/phpcs",
-    "version": "1.0.1",
     "description": "My personal PHPCS coding standard ruleset",
     "license": ["MIT"],
     "type": "phpcodesniffer-standard",
     "require": {
-        "dealerdirect/phpcodesniffer-composer-installer": "*",
-        "slevomat/coding-standard": "*",
-        "squizlabs/php_codesniffer": "*",
-        "wp-coding-standards/wpcs": "*"
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0.0",
+        "slevomat/coding-standard": "^8.14.1",
+        "squizlabs/php_codesniffer": "^3.8.0",
+        "wp-coding-standards/wpcs": "^3.0.1"
     },
     "minimum-stability": "stable",
     "config": {
